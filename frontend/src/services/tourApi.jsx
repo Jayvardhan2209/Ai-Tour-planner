@@ -1,6 +1,7 @@
 const generateTour = async (tourData) => {
   const response = await fetch(
-    "http://localhost:5000/api/tourroute/generate",
+    // "http://localhost:5000/api/tourroute/generate",
+    "https://ai-tour-planner-dbn2.onrender.com",
     {
       method: "POST",
       headers: {
