@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@google/genai": "^2.18.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mongoose": "^9.9.3"
+  },
+  "scripts": {
+  "dev": "nodemon index.jsx",
+  "start": "node index.jsx"
+}
+}

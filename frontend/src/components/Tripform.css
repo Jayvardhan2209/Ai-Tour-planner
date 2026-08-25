@@ -1,0 +1,45 @@
+.plan
+{
+    width: 31vw;
+    margin: auto;
+    justify-content: center;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.plan:hover
+{
+    background-color: black;
+    color: white;
+    transform: translateY(-5px) scale(1.02) ;
+}
+.inp
+{
+    width: 80vw;
+    margin: auto;
+    justify-content: center;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.inp:hover
+{
+    background-color: black;
+    color: white;
+    transform: translateY(-5px) scale(1.02) ;
+}
+.form-control:focus,
+.form-select:focus {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+.bn
+{
+    background-color: #8DB355 !important;
+    color: rgb(0, 0, 0) !important;
+    transition: .4s !important;
+}
+.bn:hover{
+    background-color: black !important;
+    color: white !important;
+     transform: translateY(-3px);
+}
