@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar.jsx";
 import Tripform from "./components/Tripform.jsx";
-import Footer from "./components/footer.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
