@@ -1,0 +1,15 @@
+.foot
+{
+    margin-top: 10vh;
+}
+.ql,
+.ql:hover,
+.ql:visited,
+.ql:focus,
+.ql:active {
+  text-decoration: none !important;
+  color: white;
+}
+.l{
+    list-style: none !important;
+}

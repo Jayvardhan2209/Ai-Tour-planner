@@ -5,11 +5,15 @@
     justify-content: center;
     border-radius: 10px;
     transition: 0.4s;
+     background-color: black;
+     color: white;
+    
 }
 .plan:hover
 {
-    background-color: black;
-    color: white;
+   
+    background-color: #B6B09F;
+    color: rgb(0 ,0, 0);
     transform: translateY(-5px) scale(1.02) ;
 }
 .inp
@@ -19,11 +23,13 @@
     justify-content: center;
     border-radius: 10px;
     transition: 0.4s;
+    background-color: black;
+     color: white;
 }
 .inp:hover
 {
-    background-color: black;
-    color: white;
+    background-color: #B6B09F;
+    color: rgb(0 ,0, 0);
     transform: translateY(-5px) scale(1.02) ;
 }
 .form-control:focus,

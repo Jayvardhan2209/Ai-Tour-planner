@@ -53,7 +53,7 @@ const Tripform = () => {
   return (
     <div className="container mt-3">
       <div className="plan fs-3  shadow p-1">
-        <p className="fs-3">Plan Your Perfect Trip</p>
+        <b><p className="fs-3 ">Plan Your Perfect Trip</p></b>
       <p className="fs-6">AI-powered personalized travel planning</p>
       </div>
       
@@ -166,7 +166,7 @@ const Tripform = () => {
         {/* Submit */}
         <button
           type="submit"
-          className="bn btn fw-semibold"
+          className="bn btn fw-semibold mb-10"
           disabled={loading}
         >
           {loading ? "Generating..." : "Generate Travel Plan"}

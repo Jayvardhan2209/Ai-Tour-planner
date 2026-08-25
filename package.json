@@ -6,5 +6,9 @@
     "frontend": "npm --prefix frontend run dev",
     "backend": "npm --prefix backend run dev",
     "both": "concurrently \"npm run frontend\" \"npm run backend\""
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "tailwindcss": "^4.3.3"
   }
 }
