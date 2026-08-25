@@ -7,7 +7,7 @@ function App() {
     <>
       <Navbar />
       <Tripform />
-      <Footer/>
+      <Footer />
     </>
   );
 }
