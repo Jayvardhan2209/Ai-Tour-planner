@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg bg-black navbar-dark">
       <div className="container-fluid">
 
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/">
           AI-Tour-Planner
         </a>
 
@@ -29,28 +29,38 @@ const Navbar = () => {
           {/* Left side */}
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link active" href="#">
+              <a className="nav-link active" href="/">
                 Home
               </a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link active" href="#">
+              <a className="nav-link active" href="/">
                 Search
               </a>
             </li>
+
+            {/* <li className="nav-item">
+              <a className="nav-link active" href="#">
+                Atithi Tech
+              </a>
+            </li> */}
           </ul>
+          <h1 className="mx-auto fw-semibold text-white mb-0">
+            Atithi Tech
+          </h1>
+
 
           {/* Right side */}
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link active me-3" href="#">
+              <a className="nav-link active me-3" href="/">
                 Login
               </a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link active me-3" href="#">
+              <a className="nav-link active me-3" href="/">
                 Signup
               </a>
             </li>

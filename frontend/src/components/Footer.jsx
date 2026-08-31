@@ -52,7 +52,7 @@ const Footer = () => {
             </h3>
 
             <p className="text-gray-400">
-              Email: support@aitravelplanner.com
+              Email: support@atithi.com
             </p>
 
             <p className="text-gray-400 mt-2">
@@ -65,7 +65,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400">
           <p>
-            © {new Date().getFullYear()} AI Travel Planner. All rights reserved.
+            © {new Date().getFullYear()} ATITHI TECH. All rights reserved.
           </p>
         </div>
 
