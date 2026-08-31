@@ -1,4 +1,5 @@
 import React from 'react'
+import "./Itinerary.css"
 const Itinerary = ({ itinerary }) => {
   return (
     <div className="container mt-4">
@@ -66,9 +67,10 @@ const Itinerary = ({ itinerary }) => {
               href={day.hotel.website}
               target="_blank"
               rel="noreferrer"
+              className='official-link'
             >
-              Book hotel
-              day.hotel.website
+              click here to book hotel 
+
             </a>
           )}
 
