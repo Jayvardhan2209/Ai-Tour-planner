@@ -6,7 +6,7 @@ const { GoogleGenAI } = require("@google/genai");
 const Tour = require("../model/tour.jsx");
 
 const ai = new GoogleGenAI({
-  apiKey: "AQ.Ab8RN6KE_QHLP-8Snj6ySble9R-34tLrrj46gmgtgZTzU9khDA"
+  apiKey: "api key "
 });
 
 
